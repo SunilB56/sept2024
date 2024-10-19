@@ -1,0 +1,11 @@
+
+A branching strategy in Git helps teams manage and organize their code while working on features, bug fixes, and releases. There are several popular branching strategies, each suited to different workflows and team sizes. Here's an overview of some commonly used Git branching strategies:
+
+1. Git Flow
+Git Flow is a well-structured strategy, often used in projects with a strict release cycle. It separates different types of development into distinct branches. The key branches are:
+
+Master: The stable, production-ready branch.
+Develop: This is where all the latest development happens. It's the default branch where feature branches are merged after being completed and tested.
+Feature Branches: These branches are used to develop individual features or changes. Once a feature is complete, it is merged into the develop branch.
+Release Branches: Before releasing a version, a release branch is created from develop. It is used for testing and minor bug fixes before merging into both master and develop.
+Hotfix Branches: Used to quickly patch critical issues on master. Once the fix is made, the branch is merged back into both master and develop.
